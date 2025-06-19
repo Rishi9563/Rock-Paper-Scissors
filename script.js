@@ -3,6 +3,8 @@ let computerSelection;
 let humanScore=0;
 let computerScore=0;
 
+playGame();
+
 function gethumanChoice(){
     let humanChoice=prompt("Enter your choice(Rock/Paper/Scissors)");
     humanSelection=humanChoice.toLowerCase();
@@ -27,6 +29,8 @@ function getcomputerChoice(){
 function playRound(){
     gethumanChoice();
     getcomputerChoice();
+    
+    console.log("You chose : %s  ||   Computer chose : %s",humanSelection,computerSelection);
 
     if(humanSelection==computerSelection){
         console.log("Round Draw!");
@@ -66,16 +70,16 @@ function playRound(){
         console.log("Sommething went wrong!");
     }
 
-    console.log("You : ",humanScore);
-    console.log("Computer : ",computerScore);
+    console.log("You : %d                  Computer : %d",humanScore,computerScore);
+    console.log("\n");
+
 }
 
 function playGame(){
-    playRound();
-    playRound();
-    playRound();
-    playRound();
-    playRound();
+    for(let i=1;i<=5;i++){
+        console.log("Round - %d\n",i);
+        playRound();
+    }
 
     if(humanScore==computerScore){
         console.log("Game Draw!");
@@ -90,4 +94,3 @@ function playGame(){
     }
 }
 
-playGame();
