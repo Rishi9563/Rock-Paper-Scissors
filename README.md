@@ -16,4 +16,7 @@ Math.random() function is used to generate random picks from Rock , Paper and Sc
 
 
 
+
+
+
 Creator - Rishi Awasthi
