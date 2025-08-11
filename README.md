@@ -4,11 +4,11 @@ A classic game designed primarly with javascript.
 
 # Working : 
 
-1. The game is to be played in 5 rounds.
-2. The user will be asked to choose from Rock , Paper , Scissors.
+1. The game decides winner based on first-to-five wins.
+2. The user will be provided with rock , paper and scissors button.
 3. Computer also chooses.
 4. Depending on the set of rules of game , winner will be declared between user and Computer.
-5. After 5 rounds , winner will be declared based on scores.
+5. User will have option to reset the scores at any point of time.
 
 # Logic : 
 
