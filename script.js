@@ -145,15 +145,15 @@ function finalDisplay() {
 
 function playerchoice() {
 
-    document.querySelector("#rock").addEventListener("click", function () {
+    document.getElementById("#rock").addEventListener("click", function () {
         playRound("rock");
     });
 
-    document.querySelector("#paper").addEventListener("click", function () {
+    document.getElementById("#paper").addEventListener("click", function () {
         playRound("paper");
     });
 
-    document.querySelector("#scissors").addEventListener("click", function () {
+    document.getElementById("#scissors").addEventListener("click", function () {
         playRound("scissors");
     });
 
