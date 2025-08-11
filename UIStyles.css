@@ -1,0 +1,131 @@
+body {
+    background-image: url(images/6081695.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+article {
+    background-color: white;
+    border-radius: 50px;
+    height: 1000px;
+    width: 1400px;
+    padding-top: -50px;
+}
+
+#header {
+    background-color: rgb(234, 234, 231);
+    border-radius: 50px 50px 0px 0px;
+}
+
+#rounddisplay {
+    font-size: 24px;
+    font-family: 400;
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+
+#scoreDisplay {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 0 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#playerscore,
+#computerscore {
+    text-align: center;
+}
+
+#separation {
+    font-size: 92px;
+    font-weight: 150;
+}
+
+#middle {
+    height: 400px;
+    padding: 40px;
+    display: flex;
+}
+
+#playerside {
+    position: relative;
+    top: 80px;
+    left: 120px;
+    height: 300px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    border-radius: 10px;
+    border: 0cap;
+}
+
+#gameZone {
+    height: 400px;
+    width: 800px;
+    position: relative;
+    top: 40px;
+    left: 180px;
+    background-image: url(images/91513.jpg);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#botside {
+    position: relative;
+    top: 80px;
+    left: 200px;
+}
+
+#images {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 140px;
+    position: relative;
+    top: 80px;
+}
+
+span {
+    font-size: 36px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+}
+
+.timer {
+    width: 100px;
+}
+
+#startbutton {
+    height: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#start {
+    font-size: 36px;
+    height: 60px;
+    width: 240px;
+    background-color: rgb(228, 217, 217);
+    color: black;
+}
+
+#playbutton {
+    font-size: 36px;
+    height: 60px;
+    text-align: center;
+}
+
+#play {
+    font-size: 36px;
+}
