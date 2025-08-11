@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="UIStyles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+   <article>
+    <section id="header">
+        <div id="rounddisplay">
+            Let's begin!
+        </div>
+
+        <div id="scoreDisplay">
+            <div>
+                <p>Player</p>
+                <p id="playerscore">0</p>
+            </div>
+            
+            <div id="separation">|</div>
+
+            <div>
+                <p>BOT</p>
+                <p id="computerscore">0</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="middle">
+        <div id="playerside">
+            <button id="rock"  class="playBtn"><img src="images/noun-rock-88661.png" alt="" height="70px" width="70px"></button>
+            <button id="paper" class="playBtn"><img src="images/noun-paper-88662.png" alt="" height="70px" width="70px"></button>
+            <button id="scissors" class="playBtn"><img src="images/noun-scissors-88666.png" alt="" height="70px" width="70px"></button>
+        </div>
+
+        <div id="gameZone">
+
+            <span id="winner">
+            </span>
+            <div id="images">
+                <img src="images/noun-rock-88661.png" alt="" id="playerhand" height="150px" width="150px">
+                <span class="timer"></span>
+                <img src="images/noun-rock-88661 - Copy.png" alt="" id="bothand" height="150px" width="150px">
+            </div>
+            
+        </div>
+
+        <div id="botside">
+            <img src="images/bot avtar.jpg" alt="" height="300px" width="250px">
+        </div>
+    </section>
+
+    <section id="startbutton">
+        <button id="start">Reset</button>
+    </section>
+    
+    <section id="playbutton">
+        <button id="play"></button>
+    </section>
+   </article>
+
+</body>
+
+</html>
